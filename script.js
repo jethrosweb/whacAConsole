@@ -38,11 +38,7 @@ function moveConsole() {
     timerId = setInterval(randomSquare, 500) // adds coal class to a random square every 5ms
 }
 
-// Start button
-startBtn.addEventListener("click", () => {
-    moveConsole()
-    let countDownTimerId = setInterval(countDown, 1000) // countDown changes every 1sec
-})
+moveConsole()
 
 // Timer
 function countDown() {
@@ -57,3 +53,4 @@ function countDown() {
     }
 }
 
+let countDownTimerId = setInterval(countDown, 1000) // countDown changes every 1sec

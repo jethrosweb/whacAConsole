@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.console {
+    background-image: url('console.png');
+    background-size: cover;
+}
+
